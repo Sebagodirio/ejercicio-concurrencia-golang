@@ -8,7 +8,7 @@ import (
 
 	"github.com/SebaGodirio/ejercicio-usuarios-asincronos/randomUser"
 	"github.com/SebaGodirio/ejercicio-usuarios-asincronos/randomUserSync"
-	"github.com/SebaGodirio/ejercicio-usuarios-asincronos/randomUserSyncSinCB"
+	"github.com/Sebagodirio/ejercicio-usuarios-asincronos/randomUserSyncSinCB"
 )
 
 func main() {
