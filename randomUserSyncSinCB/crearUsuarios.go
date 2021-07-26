@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	user "github.com/SebaGodirio/ejercicio-usuarios-asincronos/randomUserSyncSinCB/usuario"
+	user "github.com/Sebagodirio/ejercicio-usuario-asincronos/randomUserSyncSinCB/usuario"
 )
 
 func CrearUsuariosSinCB() {
@@ -37,11 +37,11 @@ func CrearUsuariosSinCB() {
 	}
 	contador := 0
 	for contador < numeroDeGoroutines {
-		<-c  //Espera que me llegue alg
+		<-c //Espera que me llegue alg
 		fmt.Println("Termino uno")
 		contador++
 	}
 	close(resultados)
-	<-doneWrite  //Espera que me llegue alg
+	<-doneWrite //Espera que me llegue alg
 	fmt.Println("Archivo creado exitosamente")
 }

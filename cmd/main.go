@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/SebaGodirio/ejercicio-usuarios-asincronos/randomUser"
-	"github.com/SebaGodirio/ejercicio-usuarios-asincronos/randomUserSync"
-	"github.com/Sebagodirio/ejercicio-usuarios-asincronos/randomUserSyncSinCB"
+	"github.com/Sebagodirio/ejercicio-usuario-asincronos/randomUser"
+	"github.com/Sebagodirio/ejercicio-usuario-asincronos/randomUserSync"
+	"github.com/Sebagodirio/ejercicio-usuario-asincronos/randomUserSyncSinCB"
 )
 
 func main() {
