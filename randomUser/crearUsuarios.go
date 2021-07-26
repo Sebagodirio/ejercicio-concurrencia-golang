@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/SebaGodirio/ejercicio-usuarios-asincronos/randomUser/usuario"
+	"github.com/Sebagodirio/ejercicio-usuario-asincronos/randomUser/usuario"
 )
 
 func CrearUsuariosSincrono() {
